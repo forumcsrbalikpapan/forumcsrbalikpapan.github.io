@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Infografik capaian CSR 2025: Rp17,6 miliar dari 26 perusahaan, 82 program">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12603A"/><stop offset="1" stop-color="#07303A"/></linearGradient>
+<linearGradient id="bt" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#3FA34D"/><stop offset="1" stop-color="#9BD08A"/></linearGradient>
+<linearGradient id="be" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#D9931C"/><stop offset="1" stop-color="#F2B33D"/></linearGradient>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<circle cx="1420" cy="140" r="260" fill="#3FA34D" opacity=".14"/>
+<circle cx="120" cy="980" r="300" fill="#F2B33D" opacity=".08"/>
+<g font-family="Plus Jakarta Sans, Segoe UI, Arial, sans-serif">
+<text x="96" y="150" fill="#BFE6C6" font-size="34" font-weight="800" letter-spacing="5">LAPORAN CSR 2025</text>
+<text x="92" y="330" fill="#fff" font-size="168" font-weight="800" letter-spacing="-6">Rp17,6 M</text>
+<text x="96" y="400" fill="#C4DDE1" font-size="40" font-weight="600">total anggaran program CSR · rekor tertinggi Forum</text>
+<g fill="#fff" font-weight="800">
+<text x="96" y="540" font-size="96">26</text><text x="96" y="590" font-size="30" fill="#C4DDE1" font-weight="600">perusahaan pelapor</text>
+<text x="430" y="540" font-size="96">82</text><text x="430" y="590" font-size="30" fill="#C4DDE1" font-weight="600">program CSR</text>
+<text x="96" y="730" font-size="96">70.000+</text><text x="96" y="780" font-size="30" fill="#C4DDE1" font-weight="600">penerima manfaat</text>
+</g>
+<!-- skala: 0..18 M -> tinggi 0..520 px, garis dasar y=880 -->
+<line x1="860" y1="880" x2="1500" y2="880" stroke="#5E8C8F" stroke-width="2"/>
+<rect x="900" y="547.8" width="130" height="332.2" rx="16" fill="url(#bt)" opacity=".65"/>
+<rect x="1090" y="712.4" width="130" height="167.6" rx="16" fill="url(#bt)" opacity=".65"/>
+<rect x="1280" y="371.6" width="130" height="508.4" rx="16" fill="url(#be)"/>
+<text x="965" y="525" fill="#fff" font-size="34" font-weight="800" text-anchor="middle">11,5</text>
+<text x="1155" y="690" fill="#fff" font-size="34" font-weight="800" text-anchor="middle">5,8</text>
+<text x="1345" y="350" fill="#fff" font-size="40" font-weight="800" text-anchor="middle">17,6</text>
+<text x="965" y="925" fill="#C4DDE1" font-size="30" font-weight="700" text-anchor="middle">2022</text>
+<text x="1155" y="925" fill="#C4DDE1" font-size="30" font-weight="700" text-anchor="middle">2023</text>
+<text x="1345" y="925" fill="#fff" font-size="30" font-weight="800" text-anchor="middle">2025</text>
+<text x="1180" y="972" fill="#9FC0C4" font-size="24" font-weight="600" text-anchor="middle">Miliar rupiah · data 2024 tidak tersedia</text>
+</g>
+</svg>
