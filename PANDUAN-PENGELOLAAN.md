@@ -1,13 +1,13 @@
 # Panduan Pengelolaan Situs & Media Sosial
-## Forum CSR Kota Balikpapan
+## Forum TJSLP Balikpapan
 
 Dokumen ini ditujukan untuk **sekretariat Forum dan pengurus penggantinya**.
 Simpan bersama berkas situs. Perbarui setiap kali ada perubahan kustodi akun.
 
-Versi 1.1 — 10 Oktober 2026
+Versi 2.0 — 18 Oktober 2026
 
 **Keputusan yang sudah diambil (10 Oktober 2026):**
-- Nama resmi tunggal: **Forum CSR Kota Balikpapan**
+- Nama tampilan tunggal: **Forum TJSLP Balikpapan** (sesuai logo; keputusan 18 Oktober 2026 menggantikan keputusan 10 Oktober)
 - Untuk tanggal yang bertentangan antara Proposal BSF v6 dan flyer, **flyer yang mengikat**
 - Situs tayang gratis di `github.io` lebih dulu; domain `.or.id` menyusul
 
@@ -24,13 +24,11 @@ Versi 1.1 — 10 Oktober 2026
    telepon, dan surel orang per orang. Menautkannya ke situs publik melanggar
    UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi. Dokumen semacam itu
    diberikan atas permintaan tertulis, bukan dipublikasikan.
-3. **Satu nama resmi saja: `Forum CSR Kota Balikpapan`.**
-   Diputuskan 10 Oktober 2026. Dipakai di situs, Instagram, flyer, kop surat, dan
-   seluruh korespondensi. Nama menurut dasar pembentukan — *Forum Tanggung Jawab Sosial
-   dan Lingkungan Badan Usaha (TJSLBU) Kota Balikpapan* sesuai Keputusan Wali Kota, dan
-   *TJSLP* dalam Rancangan Perda 2026 — hanya dicantumkan pada halaman Tentang sebagai
-   keterangan hukum. **Jangan menambah varian baru.** Varian lama yang harus berhenti
-   dipakai: *Forum TJSLP Balikpapan*, *Forum CSR/TJSLP Kota Balikpapan*.
+3. **Satu nama tampilan saja: `Forum TJSLP Balikpapan`** — sama persis dengan logo resmi
+   (diputuskan 18 Oktober 2026). Nama hukumnya *Forum Pelaksana Tanggung Jawab Sosial dan
+   Lingkungan Perusahaan (TJSLP) Kota Balikpapan* sesuai Keputusan Wali Kota Nomor
+   188.45-175/2025. *Forum CSR Kota Balikpapan* boleh dipakai sebagai sebutan populer.
+   Jangan membuat varian lain.
 4. **Angka dan tanggal di situs harus sama dengan yang ada di flyer dan surat resmi.**
    Jika berubah, ubah di semua tempat pada hari yang sama.
 
@@ -82,15 +80,55 @@ tidak ada biaya bulanan, tidak ada yang kedaluwarsa.
 ### 2.1 Langkah penayangan di GitHub Pages
 
 1. Buka `github.com`, daftar akun baru **memakai `forumcsr25@gmail.com`**.
-   Nama pengguna: `forumcsrbalikpapan`.
-2. Buat repositori baru bernama **`forumcsrbalikpapan.github.io`**,
-   setel **Public**.
-3. Pada repositori tersebut, klik **Add file → Upload files**, seret seluruh isi
-   folder `website` ini (termasuk folder `assets` dan `img`), lalu **Commit changes**.
-4. Masuk **Settings → Pages**. Pada *Source* pilih **Deploy from a branch**,
+
+2. **Nama pengguna akun wajib `forumcsrbalikpapan`.** Ini bukan soal selera.
+   GitHub hanya menayangkan situs di `https://namaakun.github.io` apabila nama
+   repositori **persis sama** dengan nama akun. Kalau akun bernama lain —
+   misalnya `forumcsr25-maker` — situs justru tayang di
+   `https://forumcsr25-maker.github.io/forumcsrbalikpapan.github.io/`,
+   alamat yang tidak layak dicantumkan di kop surat.
+
+   Nama akun bisa diubah kapan saja tanpa kehilangan apa pun:
+   foto profil kanan atas → **Settings → Account → Change username**.
+
+   Jika `forumcsrbalikpapan` sudah dipakai orang lain, gunakan
+   `forumcsrkotabalikpapan`, lalu samakan nama repositorinya.
+
+3. Buat repositori baru bernama **`forumcsrbalikpapan.github.io`** — sama persis
+   dengan nama akun, ditambah `.github.io`. Setel **Public**.
+
+4. Unggah berkas situs.
+
+   - **Repositori yang masih kosong** belum punya tombol *Add file*. Pada kotak
+     biru *Quick setup* klik tautan **"uploading an existing file"**.
+   - **Repositori yang sudah berisi** memakai tombol **Add file → Upload files**.
+
+   **Seret isi folder, bukan foldernya.** Buka folder `Website Forum CSR`, pilih
+   delapan item berikut sekaligus, lalu seret ke halaman GitHub:
+
+   ```
+   index.html   tentang.html   program.html
+   publikasi.html   keanggotaan.html
+   PANDUAN-PENGELOLAAN.md
+   assets   (folder)
+   img      (folder)
+   ```
+
+   Menyeret folder `Website Forum CSR` secara utuh membuat seluruh isinya masuk
+   satu tingkat lebih dalam, dan situs tidak akan tayang. Berkas tersembunyi
+   `.DS_Store` dan `.nojekyll` boleh diabaikan.
+
+   Isi keterangan singkat, lalu **Commit changes**.
+
+5. Masuk **Settings → Pages**. Pada *Source* pilih **Deploy from a branch**,
    branch `main`, folder `/ (root)`. Simpan.
-5. Tunggu 1–3 menit. Situs tayang di
+
+6. Tunggu 1–3 menit. Situs tayang di
    **`https://forumcsrbalikpapan.github.io`**
+
+   Bila halaman tampil tanpa warna dan tanpa gambar, hampir pasti folder `assets`
+   atau `img` tidak ikut terunggah. Periksa daftar berkas di repositori: `index.html`
+   harus berada di tingkat paling atas, sejajar dengan folder `assets` dan `img`.
 
 Batas GitHub Pages gratis: 1 GB penyimpanan dan 100 GB lalu lintas per bulan —
 jauh di atas kebutuhan Forum.
@@ -134,13 +172,32 @@ sebelumnya. Tidak ada perubahan yang permanen.
 
 | Berkas | Isinya |
 |---|---|
-| `index.html` | Halaman depan: pengumuman, angka kunci, tiga kegiatan, lini masa, mitra |
-| `tentang.html` | Profil, dasar hukum, susunan kepengurusan |
-| `program.html` | Rincian tiga kegiatan BSF 2026 dan tata kelola penjurian |
-| `publikasi.html` | Flyer, teks siap tayang, daftar dokumen |
-| `keanggotaan.html` | Cara bergabung dan tiga jalur dukungan |
-| `assets/style.css` | Warna dan huruf. Blok `:root` di bagian atas mengatur seluruh situs |
-| `img/` | Gambar: flyer dan logo mitra |
+| `index.html` | Beranda: hero, agenda BSF, berita terbaru, data kiprah, penerima CSR Awards, ajakan bergabung |
+| `berita.html` | Daftar semua berita (bisa disaring per kategori) |
+| `berita-*.html` | Satu berkas per berita |
+| `kiprah.html` | Data capaian CSR, keselarasan RPJMD, rekomendasi, linimasa kegiatan |
+| `program.html` | Balikpapan Sustainability Festival 2026 dan inisiatif kolaborasi |
+| `bergabung.html` | Daftar mitra, laporan CSR/ESG, dasbor |
+| `tentang.html` | Profil, dasar hukum, kepengurusan |
+| `publikasi.html` | Flyer, infografik, teks siap tayang, dokumen |
+| `keanggotaan.html` | Pengalih otomatis ke `bergabung.html` (jangan dihapus) |
+| `assets/style.css`, `assets/main.js` | Tampilan dan interaksi |
+| `img/` | Foto (sudah diperkecil), logo, flyer |
+
+**Status yang berganti sendiri.** Label seperti "Daftar sampai 23 Okt" dan tombol "Daftar sekarang"
+otomatis berubah menjadi "Pendaftaran ditutup" atau hilang setelah tenggatnya lewat. Pita BSF di
+bagian atas juga hilang sendiri setelah 28 Oktober 2026.
+
+### 3.2a Menambah berita baru
+
+Cara termudah: minta Claude ("buatkan berita kegiatan X dari dokumen/foto ini untuk situs Forum"),
+lalu unggah berkas yang dihasilkan. Cara manual:
+
+1. Salin salah satu berkas `berita-*.html`, beri nama baru, misalnya `berita-pemenang-bsa-2026.html`.
+2. Ganti judul, tanggal, isi, dan nama foto. Unggah fotonya ke folder `img/` (lebar maksimal 1600 px).
+3. Tambahkan kartu berita baru di `berita.html` (salin satu blok `<a class="kartu" …>…</a>`).
+4. Setiap berita wajib mencantumkan sumbernya. Jangan menulis kutipan langsung yang tidak ada
+   rekaman atau dokumennya.
 
 ### 3.3 Dua hal yang perlu diperhatikan
 
