@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /img/ig/
+
+Sitemap: https://forumcsrbalikpapan.github.io/sitemap.xml
