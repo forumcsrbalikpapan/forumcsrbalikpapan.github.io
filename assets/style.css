@@ -336,3 +336,5 @@ footer.kaki .hak{border-top:1px solid rgba(255,255,255,.12);margin-top:32px;padd
 .ombak-gerak{animation:ombak 28s linear infinite}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media(max-width:480px){.statmini b{font-size:1.08rem}.statmini div{padding:10px}.hero h1{font-size:2.05rem}}
+
+[hidden]{display:none!important}
